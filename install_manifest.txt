@@ -1,0 +1,5 @@
+/home/wenzel/NetBeansProjects/G4TrackerStudies-install/bin/g4main
+/home/wenzel/NetBeansProjects/G4TrackerStudies-install/lib/libTrackerStudies.so
+/home/wenzel/NetBeansProjects/G4TrackerStudies-install/bin/vis.mac
+/home/wenzel/NetBeansProjects/G4TrackerStudies-install/bin/init_vis.mac
+/home/wenzel/NetBeansProjects/G4TrackerStudies-install/bin/muons.in

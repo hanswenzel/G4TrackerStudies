@@ -1,0 +1,25 @@
+Scanning dependencies of target TrackerStudies
+[ 10%] Building CXX object CMakeFiles/TrackerStudies.dir/src/PrimaryGeneratorAction.cc.o
+[ 20%] Building CXX object CMakeFiles/TrackerStudies.dir/src/TrackerSD.cc.o
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/TrackerSD.cc:16: warning: unused parameter ‘hitsCollectionName’
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/TrackerSD.cc:29: warning: unused parameter ‘hce’
+[ 30%] Building CXX object CMakeFiles/TrackerStudies.dir/src/EventAction.cc.o
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/EventAction.cc: In member function ‘virtual void EventAction::EndOfEventAction(const G4Event*)’:
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/EventAction.cc:60: warning: unused variable ‘analysis’
+[ 40%] Building CXX object CMakeFiles/TrackerStudies.dir/src/DetectorConstruction.cc.o
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/DetectorConstruction.cc: In member function ‘virtual G4VPhysicalVolume* DetectorConstruction::Construct()’:
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/DetectorConstruction.cc:105: warning: unused variable ‘jj’
+[ 50%] Building CXX object CMakeFiles/TrackerStudies.dir/src/DetectorMessenger.cc.o
+[ 60%] Building CXX object CMakeFiles/TrackerStudies.dir/src/Analysis.cc.o
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/Analysis.cc: In member function ‘void Analysis::WriteHeader()’:
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/Analysis.cc:153: warning: unused variable ‘store’
+/home/wenzel/NetBeansProjects/G4TrackerStudies/src/Analysis.cc:158: warning: unused variable ‘elm’
+[ 70%] Building CXX object CMakeFiles/TrackerStudies.dir/src/ConfigurationManager.cc.o
+[ 80%] Building CXX object CMakeFiles/TrackerStudies.dir/src/RunAction.cc.o
+[ 90%] Building CXX object CMakeFiles/TrackerStudies.dir/src/EventActionMessenger.cc.o
+Linking CXX shared library lib/libTrackerStudies.so
+[ 90%] Built target TrackerStudies
+Scanning dependencies of target g4main
+[100%] Building CXX object CMakeFiles/g4main.dir/g4main.cc.o
+Linking CXX executable bin/g4main
+[100%] Built target g4main
